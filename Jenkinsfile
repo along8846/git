@@ -1,9 +1,9 @@
 pipeline {
   agent none
   stages {
-    stage('clone') {
+    stage('Build') {
       steps {
-        sh 'ls '
+        sh 'echo \'Building. .....\''
       }
     }
   }
